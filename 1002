@@ -1,0 +1,14 @@
+//Bibliotecas:
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main ()
+{
+  double radio, area;
+  cin>>radio;
+  area= 3.14159*radio*radio;
+  cout<<"A="<< fixed <<setprecision(4)<<area<<endl;
+return 0;
+}
